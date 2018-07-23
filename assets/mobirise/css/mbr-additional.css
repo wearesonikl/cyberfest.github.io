@@ -4372,8 +4372,68 @@ body {
 .cid-qXBNyxLZVH .mbr-section-subtitle {
   color: #ffffff;
 }
+.cid-qYCVLeWjdM {
+  padding-top: 60px;
+  padding-bottom: 0px;
+  background-color: #ac1356;
+}
+.cid-qYCVLeWjdM .mbr-slider .carousel-control {
+  background: #1b1b1b;
+}
+.cid-qYCVLeWjdM .mbr-slider .carousel-control-prev {
+  left: 0;
+  margin-left: 2.5rem;
+}
+.cid-qYCVLeWjdM .mbr-slider .carousel-control-next {
+  right: 0;
+  margin-right: 2.5rem;
+}
+.cid-qYCVLeWjdM .mbr-slider .modal-body .close {
+  background: #1b1b1b;
+}
+.cid-qYCVLeWjdM .mbr-gallery-item > div::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: #554346;
+  opacity: 0;
+  -webkit-transition: 0.2s opacity ease-in-out;
+  transition: 0.2s opacity ease-in-out;
+}
+.cid-qYCVLeWjdM .mbr-gallery-item > div:hover .mbr-gallery-title::before {
+  background: transparent !important;
+}
+.cid-qYCVLeWjdM .mbr-gallery-item > div:hover:before {
+  opacity: 0.7 !important;
+}
+.cid-qYCVLeWjdM .mbr-gallery-title {
+  font-size: .9em;
+  position: absolute;
+  display: block;
+  width: 100%;
+  bottom: 0;
+  padding: 1rem;
+  color: #fff;
+  z-index: 2;
+}
+.cid-qYCVLeWjdM .mbr-gallery-title:before {
+  content: " ";
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  position: absolute;
+  background: #554346 !important;
+  opacity: 0.7;
+  -webkit-transition: 0.2s background ease-in-out;
+  transition: 0.2s background ease-in-out;
+}
 .cid-qXDaeTBOLy {
-  padding-top: 90px;
+  padding-top: 15px;
   padding-bottom: 45px;
   background-color: #ac1356;
 }
@@ -4399,7 +4459,6 @@ body {
   width: 100%;
   height: 100%;
   background: #554346;
-  background: linear-gradient(to left, #554346, #45505b) !important;
   opacity: 0;
   -webkit-transition: 0.2s opacity ease-in-out;
   transition: 0.2s opacity ease-in-out;
@@ -4429,7 +4488,6 @@ body {
   z-index: -1;
   position: absolute;
   background: #554346 !important;
-  background: linear-gradient(to left, #554346, #45505b) !important;
   opacity: 0.7;
   -webkit-transition: 0.2s background ease-in-out;
   transition: 0.2s background ease-in-out;
